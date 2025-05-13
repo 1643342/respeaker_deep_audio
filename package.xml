@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>respeaker_deep_audio</name>
+  <version>0.0.0</version>
+  <description>ROS 2 driver wrapper for ReSpeaker Mic Array v2.0</description>
+  <maintainer email="you@yourdomain.com">Your Name</maintainer>
+  <license>Apache-2.0</license>
+  <depend>rclpy</depend>
+  <depend>std_msgs</depend>
+  <depend>sensor_msgs</depend>
+</package>

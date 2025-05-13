@@ -1,0 +1,11 @@
+build/
+install/
+log/
+__pycache__/
+*.pyc
+EOFcat > .gitignore <<EOF
+build/
+install/
+log/
+__pycache__/
+*.pyc
