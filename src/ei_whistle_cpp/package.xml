@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>ei_whistle_cpp</name>
+  <version>0.0.1</version>
+  <description>Edge Impulse C++ whistle detector</description>
+  <maintainer email="Gonzab@my.erau.edu">you</maintainer>
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>rclcpp</depend>
+  <depend>std_msgs</depend>
+
+  <exec_depend>libasound2</exec_depend>
+  <exec_depend>libasound2-dev</exec_depend>
+</package>
