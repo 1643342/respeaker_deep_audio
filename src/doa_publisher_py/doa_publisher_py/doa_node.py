@@ -1,40 +1,34 @@
-#!/usr/bin/env python3
+# doa_node.py
 import rclpy
 from rclpy.node import Node
-from std_msgs.msg import Float32
-import usb.core, usb.util
+from std_msgs.msg import Int32
+from .tuning.py import find
 
-# local tuning module (your Python3-fixed version)
-from .tuning import Tuning
-
-class DoaNode(Node):
+class DOANode(Node):
     def __init__(self):
         super().__init__('doa_publisher')
-        self.pub = self.create_publisher(Float32, '/doa_deg', 10)
-        self.timer = self.create_wall_timer(0.1, self.tick)  # 10Hz
-        self.dev = usb.core.find(idVendor=0x2886, idProduct=0x0018)
-        if not self.dev:
-            self.get_logger().fatal("ReSpeaker 0x2886:0x0018 not found")
-            raise SystemExit(1)
-        self.tuning = Tuning(self.dev)
-        self.get_logger().info("DOA publisher started")
+        self.pub = self.create_publisher(Int32, 'doa_angle', 10)
 
-    def tick(self):
-        try:
-            angle = float(self.tuning.direction)  # 0..359
-            m = Float32()
-            m.data = angle
-            self.pub.publish(m)
-        except Exception as e:
-            self.get_logger().warn(f"DOA read error: {e}")
+        # initialize device
+        self.mic = find()
+        if not self.mic:
+            self.get_logger().error("ReSpeaker Mic Array v2.0 not found!")
+            exit()
 
-def main():
-    rclpy.init()
-    node = DoaNode()
-    try:
-        rclpy.spin(node)
-    except KeyboardInterrupt:
-        pass
-    finally:
-        node.destroy_node()
-        rclpy.shutdown()
+        self.timer = self.create_timer(0.1, self.timer_callback)
+
+    def timer_callback(self):
+        angle = self.mic.direction
+        msg = Int32()
+        msg.data = angle
+        self.pub.publish(msg)
+
+def main(args=None):
+    rclpy.init(args=args)
+    node = DOANode()
+    rclpy.spin(node)
+    node.destroy_node()
+    rclpy.shutdown()
+
+if __name__ == '__main__':
+    main()
