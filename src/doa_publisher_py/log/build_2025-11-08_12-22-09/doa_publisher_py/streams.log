@@ -1,0 +1,39 @@
+[4.384s] Invoking command in '/home/dev/ros2_ws/src/respeaker_deep_audio/src/doa_publisher_py/build/doa_publisher_py': PYTHONPATH=/home/dev/ros2_ws/src/respeaker_deep_audio/src/doa_publisher_py/build/doa_publisher_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dev/ros2_ws/src/respeaker_deep_audio/src/doa_publisher_py/install/doa_publisher_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/dev/ros2_ws/src/respeaker_deep_audio/src/doa_publisher_py/build/doa_publisher_py/build --no-deps symlink_data
+[5.075s] /usr/local/lib/python3.10/dist-packages/setuptools/dist.py:599: SetuptoolsDeprecationWarning: Invalid dash-separated key 'script-dir' in 'develop' (setup.cfg), please use the underscore name 'script_dir' instead.
+[5.076s] !!
+[5.076s] 
+[5.076s]         ********************************************************************************
+[5.077s]         Usage of dash-separated 'script-dir' will not be supported in future
+[5.077s]         versions. Please use the underscore name 'script_dir' instead.
+[5.078s] 
+[5.078s]         By 2026-Mar-03, you need to update your project and remove deprecated calls
+[5.078s]         or your builds will no longer be supported.
+[5.079s] 
+[5.079s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[5.080s]         ********************************************************************************
+[5.080s] 
+[5.080s] !!
+[5.081s]   opt = self._enforce_underscore(opt, section)
+[5.348s] /usr/local/lib/python3.10/dist-packages/setuptools/dist.py:599: SetuptoolsDeprecationWarning: Invalid dash-separated key 'script-dir' in 'develop' (setup.cfg), please use the underscore name 'script_dir' instead.
+[5.349s] !!
+[5.349s] 
+[5.349s]         ********************************************************************************
+[5.350s]         Usage of dash-separated 'script-dir' will not be supported in future
+[5.350s]         versions. Please use the underscore name 'script_dir' instead.
+[5.351s]         (Affected: doa_publisher_py).
+[5.351s] 
+[5.351s]         By 2026-Mar-03, you need to update your project and remove deprecated calls
+[5.352s]         or your builds will no longer be supported.
+[5.352s] 
+[5.352s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[5.353s]         ********************************************************************************
+[5.353s] 
+[5.353s] !!
+[5.354s]   opt = self._enforce_underscore(opt, section)
+[5.436s] usage: setup.py [global_opts] cmd1 [cmd1_opts] [cmd2 [cmd2_opts] ...]
+[5.437s]    or: setup.py --help [cmd1 cmd2 ...]
+[5.438s]    or: setup.py --help-commands
+[5.439s]    or: setup.py cmd --help
+[5.440s] 
+[5.441s] error: option --editable not recognized
+[5.539s] Invoked command in '/home/dev/ros2_ws/src/respeaker_deep_audio/src/doa_publisher_py/build/doa_publisher_py' returned '1': PYTHONPATH=/home/dev/ros2_ws/src/respeaker_deep_audio/src/doa_publisher_py/build/doa_publisher_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dev/ros2_ws/src/respeaker_deep_audio/src/doa_publisher_py/install/doa_publisher_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/dev/ros2_ws/src/respeaker_deep_audio/src/doa_publisher_py/build/doa_publisher_py/build --no-deps symlink_data

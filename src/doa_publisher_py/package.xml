@@ -2,12 +2,19 @@
 <package format="3">
   <name>doa_publisher_py</name>
   <version>0.0.1</version>
-  <description>ReSpeaker DOA publisher (Python, USB control transfer)</description>
+  <description>ReSpeaker DOA publisher (Python)</description>
   <maintainer email="Gonzab18@my.erau.edu">you</maintainer>
   <license>Apache-2.0</license>
+
   <buildtool_depend>ament_python</buildtool_depend>
+
   <exec_depend>rclpy</exec_depend>
   <exec_depend>std_msgs</exec_depend>
-  <!-- runtime: pyusb (pip), udev rule (you already added) -->
+  <exec_depend>python3-usb</exec_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
 </package>
+
 

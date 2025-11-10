@@ -1,0 +1,99 @@
+[0.000000] (-) TimerEvent: {}
+[0.001408] (doa_publisher_py) JobQueued: {'identifier': 'doa_publisher_py', 'dependencies': OrderedDict()}
+[0.001660] (doa_publisher_py) JobStarted: {'identifier': 'doa_publisher_py'}
+[0.097949] (-) TimerEvent: {}
+[0.198616] (-) TimerEvent: {}
+[0.299300] (-) TimerEvent: {}
+[0.400019] (-) TimerEvent: {}
+[0.500770] (-) TimerEvent: {}
+[0.601459] (-) TimerEvent: {}
+[0.702106] (-) TimerEvent: {}
+[0.802743] (-) TimerEvent: {}
+[0.903380] (-) TimerEvent: {}
+[1.004204] (-) TimerEvent: {}
+[1.106147] (-) TimerEvent: {}
+[1.207753] (-) TimerEvent: {}
+[1.308479] (-) TimerEvent: {}
+[1.409167] (-) TimerEvent: {}
+[1.509819] (-) TimerEvent: {}
+[1.610490] (-) TimerEvent: {}
+[1.711107] (-) TimerEvent: {}
+[1.811778] (-) TimerEvent: {}
+[1.912401] (-) TimerEvent: {}
+[2.013059] (-) TimerEvent: {}
+[2.113680] (-) TimerEvent: {}
+[2.214324] (-) TimerEvent: {}
+[2.315011] (-) TimerEvent: {}
+[2.415740] (-) TimerEvent: {}
+[2.516632] (-) TimerEvent: {}
+[2.617255] (-) TimerEvent: {}
+[2.717951] (-) TimerEvent: {}
+[2.818644] (-) TimerEvent: {}
+[2.919442] (-) TimerEvent: {}
+[3.020110] (-) TimerEvent: {}
+[3.120816] (-) TimerEvent: {}
+[3.221461] (-) TimerEvent: {}
+[3.322114] (-) TimerEvent: {}
+[3.422740] (-) TimerEvent: {}
+[3.523375] (-) TimerEvent: {}
+[3.623992] (-) TimerEvent: {}
+[3.724648] (-) TimerEvent: {}
+[3.825282] (-) TimerEvent: {}
+[3.925991] (-) TimerEvent: {}
+[4.026741] (-) TimerEvent: {}
+[4.127538] (-) TimerEvent: {}
+[4.228725] (-) TimerEvent: {}
+[4.329608] (-) TimerEvent: {}
+[4.373116] (doa_publisher_py) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/dev/ros2_ws/src/respeaker_deep_audio/src/doa_publisher_py/build/doa_publisher_py/build', '--no-deps', 'symlink_data'], 'cwd': '/home/dev/ros2_ws/src/respeaker_deep_audio/src/doa_publisher_py/build/doa_publisher_py', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'dev', 'SSH_CLIENT': '10.33.252.132 60452 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/dev/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/extensions/git/dist/askpass.sh', 'ROS_APT_SOURCE_VERSION': '1.1.0', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/dev/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/dev', 'OLDPWD': '/home/dev', 'TERM_PROGRAM_VERSION': '1.105.1', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-a5b44166-297a-438b-bdb6-6d2e68cc43cc.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/dev/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/dev/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/certs/ca-certificates.crt', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/dev/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'dev', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '5', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/dev/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/bin/remote-cli:/home/dev/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/dev/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-a93a377564.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/dev/ros2_ws/src/respeaker_deep_audio/src/doa_publisher_py/build/doa_publisher_py', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '10.33.252.132 60452 10.33.220.113 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/dev/ros2_ws/src/respeaker_deep_audio/src/doa_publisher_py/build/doa_publisher_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dev/ros2_ws/src/respeaker_deep_audio/src/doa_publisher_py/install/doa_publisher_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[4.429789] (-) TimerEvent: {}
+[4.531159] (-) TimerEvent: {}
+[4.631846] (-) TimerEvent: {}
+[4.732586] (-) TimerEvent: {}
+[4.833221] (-) TimerEvent: {}
+[4.934274] (-) TimerEvent: {}
+[5.034948] (-) TimerEvent: {}
+[5.076602] (doa_publisher_py) StderrLine: {'line': b"/usr/local/lib/python3.10/dist-packages/setuptools/dist.py:599: SetuptoolsDeprecationWarning: Invalid dash-separated key 'script-dir' in 'develop' (setup.cfg), please use the underscore name 'script_dir' instead.\n"}
+[5.077297] (doa_publisher_py) StderrLine: {'line': b'!!\n'}
+[5.077677] (doa_publisher_py) StderrLine: {'line': b'\n'}
+[5.078083] (doa_publisher_py) StderrLine: {'line': b'        ********************************************************************************\n'}
+[5.078450] (doa_publisher_py) StderrLine: {'line': b"        Usage of dash-separated 'script-dir' will not be supported in future\n"}
+[5.078858] (doa_publisher_py) StderrLine: {'line': b"        versions. Please use the underscore name 'script_dir' instead.\n"}
+[5.079233] (doa_publisher_py) StderrLine: {'line': b'\n'}
+[5.079592] (doa_publisher_py) StderrLine: {'line': b'        By 2026-Mar-03, you need to update your project and remove deprecated calls\n'}
+[5.079947] (doa_publisher_py) StderrLine: {'line': b'        or your builds will no longer be supported.\n'}
+[5.080297] (doa_publisher_py) StderrLine: {'line': b'\n'}
+[5.080744] (doa_publisher_py) StderrLine: {'line': b'        See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.\n'}
+[5.081150] (doa_publisher_py) StderrLine: {'line': b'        ********************************************************************************\n'}
+[5.081525] (doa_publisher_py) StderrLine: {'line': b'\n'}
+[5.081881] (doa_publisher_py) StderrLine: {'line': b'!!\n'}
+[5.082268] (doa_publisher_py) StderrLine: {'line': b'  opt = self._enforce_underscore(opt, section)\n'}
+[5.135101] (-) TimerEvent: {}
+[5.235753] (-) TimerEvent: {}
+[5.336402] (-) TimerEvent: {}
+[5.349841] (doa_publisher_py) StderrLine: {'line': b"/usr/local/lib/python3.10/dist-packages/setuptools/dist.py:599: SetuptoolsDeprecationWarning: Invalid dash-separated key 'script-dir' in 'develop' (setup.cfg), please use the underscore name 'script_dir' instead.\n"}
+[5.350435] (doa_publisher_py) StderrLine: {'line': b'!!\n'}
+[5.350787] (doa_publisher_py) StderrLine: {'line': b'\n'}
+[5.351124] (doa_publisher_py) StderrLine: {'line': b'        ********************************************************************************\n'}
+[5.351457] (doa_publisher_py) StderrLine: {'line': b"        Usage of dash-separated 'script-dir' will not be supported in future\n"}
+[5.351801] (doa_publisher_py) StderrLine: {'line': b"        versions. Please use the underscore name 'script_dir' instead.\n"}
+[5.352184] (doa_publisher_py) StderrLine: {'line': b'        (Affected: doa_publisher_py).\n'}
+[5.352587] (doa_publisher_py) StderrLine: {'line': b'\n'}
+[5.352972] (doa_publisher_py) StderrLine: {'line': b'        By 2026-Mar-03, you need to update your project and remove deprecated calls\n'}
+[5.353316] (doa_publisher_py) StderrLine: {'line': b'        or your builds will no longer be supported.\n'}
+[5.353650] (doa_publisher_py) StderrLine: {'line': b'\n'}
+[5.353979] (doa_publisher_py) StderrLine: {'line': b'        See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.\n'}
+[5.354310] (doa_publisher_py) StderrLine: {'line': b'        ********************************************************************************\n'}
+[5.354641] (doa_publisher_py) StderrLine: {'line': b'\n'}
+[5.354961] (doa_publisher_py) StderrLine: {'line': b'!!\n'}
+[5.355288] (doa_publisher_py) StderrLine: {'line': b'  opt = self._enforce_underscore(opt, section)\n'}
+[5.436619] (-) TimerEvent: {}
+[5.437587] (doa_publisher_py) StderrLine: {'line': b'usage: setup.py [global_opts] cmd1 [cmd1_opts] [cmd2 [cmd2_opts] ...]\n'}
+[5.438548] (doa_publisher_py) StderrLine: {'line': b'   or: setup.py --help [cmd1 cmd2 ...]\n'}
+[5.439317] (doa_publisher_py) StderrLine: {'line': b'   or: setup.py --help-commands\n'}
+[5.440244] (doa_publisher_py) StderrLine: {'line': b'   or: setup.py cmd --help\n'}
+[5.441265] (doa_publisher_py) StderrLine: {'line': b'\n'}
+[5.442056] (doa_publisher_py) StderrLine: {'line': b'error: option --editable not recognized\n'}
+[5.536844] (-) TimerEvent: {}
+[5.539814] (doa_publisher_py) CommandEnded: {'returncode': 1}
+[5.541104] (doa_publisher_py) JobEnded: {'identifier': 'doa_publisher_py', 'rc': 1}
+[5.551782] (-) EventReactorShutdown: {}

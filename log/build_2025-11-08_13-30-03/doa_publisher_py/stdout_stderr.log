@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating doa_publisher_py.egg-info
+writing doa_publisher_py.egg-info/PKG-INFO
+writing dependency_links to doa_publisher_py.egg-info/dependency_links.txt
+writing entry points to doa_publisher_py.egg-info/entry_points.txt
+writing requirements to doa_publisher_py.egg-info/requires.txt
+writing top-level names to doa_publisher_py.egg-info/top_level.txt
+writing manifest file 'doa_publisher_py.egg-info/SOURCES.txt'
+reading manifest file 'doa_publisher_py.egg-info/SOURCES.txt'
+writing manifest file 'doa_publisher_py.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/dev/respeaker_deep_audio/install/doa_publisher_py/lib/python3.10/site-packages/doa-publisher-py.egg-link (link to .)
+Installing doa_node script to /home/dev/respeaker_deep_audio/install/doa_publisher_py/lib/doa_publisher_py
+
+Installed /home/dev/respeaker_deep_audio/build/doa_publisher_py
+running symlink_data
+creating /home/dev/respeaker_deep_audio/install/doa_publisher_py/share/ament_index
+creating /home/dev/respeaker_deep_audio/install/doa_publisher_py/share/ament_index/resource_index
+creating /home/dev/respeaker_deep_audio/install/doa_publisher_py/share/ament_index/resource_index/packages
+symbolically linking /home/dev/respeaker_deep_audio/build/doa_publisher_py/resource/doa_publisher_py -> /home/dev/respeaker_deep_audio/install/doa_publisher_py/share/ament_index/resource_index/packages
+symbolically linking /home/dev/respeaker_deep_audio/build/doa_publisher_py/package.xml -> /home/dev/respeaker_deep_audio/install/doa_publisher_py/share/doa_publisher_py

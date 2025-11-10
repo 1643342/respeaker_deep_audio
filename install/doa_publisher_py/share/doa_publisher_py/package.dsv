@@ -1,0 +1,9 @@
+source;share/doa_publisher_py/hook/pythonpath.ps1
+source;share/doa_publisher_py/hook/pythonpath.dsv
+source;share/doa_publisher_py/hook/pythonpath.sh
+source;share/doa_publisher_py/hook/ament_prefix_path.ps1
+source;share/doa_publisher_py/hook/ament_prefix_path.dsv
+source;share/doa_publisher_py/hook/ament_prefix_path.sh
+source;../../build/doa_publisher_py/share/doa_publisher_py/hook/pythonpath_develop.ps1
+source;../../build/doa_publisher_py/share/doa_publisher_py/hook/pythonpath_develop.dsv
+source;../../build/doa_publisher_py/share/doa_publisher_py/hook/pythonpath_develop.sh

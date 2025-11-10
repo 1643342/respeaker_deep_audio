@@ -2,7 +2,9 @@
 import rclpy
 from rclpy.node import Node
 from std_msgs.msg import Int32
-from .tuning.py import find
+
+
+from .tuning import Tuning, find
 
 class DOANode(Node):
     def __init__(self):
