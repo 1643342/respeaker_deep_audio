@@ -1,0 +1,6 @@
+Invoking command in '/home/dev/respeaker_deep_audio/build/ei_whistle_cpp': /usr/bin/cmake /home/dev/respeaker_deep_audio/src/ei_whistle_cpp -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/dev/respeaker_deep_audio/install/ei_whistle_cpp
+Invoked command in '/home/dev/respeaker_deep_audio/build/ei_whistle_cpp' returned '0': /usr/bin/cmake /home/dev/respeaker_deep_audio/src/ei_whistle_cpp -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/dev/respeaker_deep_audio/install/ei_whistle_cpp
+Invoking command in '/home/dev/respeaker_deep_audio/build/ei_whistle_cpp': /usr/bin/cmake --build /home/dev/respeaker_deep_audio/build/ei_whistle_cpp -- -j4 -l4
+Invoked command in '/home/dev/respeaker_deep_audio/build/ei_whistle_cpp' returned '0': /usr/bin/cmake --build /home/dev/respeaker_deep_audio/build/ei_whistle_cpp -- -j4 -l4
+Invoking command in '/home/dev/respeaker_deep_audio/build/ei_whistle_cpp': /usr/bin/cmake --install /home/dev/respeaker_deep_audio/build/ei_whistle_cpp
+Invoked command in '/home/dev/respeaker_deep_audio/build/ei_whistle_cpp' returned '0': /usr/bin/cmake --install /home/dev/respeaker_deep_audio/build/ei_whistle_cpp

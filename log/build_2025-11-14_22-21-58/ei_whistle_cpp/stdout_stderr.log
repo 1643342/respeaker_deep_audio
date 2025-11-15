@@ -1,0 +1,213 @@
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/dev/respeaker_deep_audio/build/ei_whistle_cpp
+[35m[1mConsolidate compiler generated dependencies of target whistle_node[0m
+gmake[2]: Warning: File '/home/dev/respeaker_deep_audio/src/ei_whistle_cpp/edge-impulse-sdk/classifier/ei_run_classifier.h' has modification time 15022 s in the future
+[  1%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/classifier/ei_run_classifier_c.cpp.o[0m
+[  1%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/whistle_node.cpp.o[0m
+[  2%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/dsp/image/processing.cpp.o[0m
+[  2%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/dsp/dct/fast-dct-fft.cpp.o[0m
+[  3%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/dsp/kissfft/kiss_fft.cpp.o[0m
+[  3%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/dsp/kissfft/kiss_fftr.cpp.o[0m
+[  4%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/dsp/memory.cpp.o[0m
+[  4%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/porting/posix/debug_log.cpp.o[0m
+[  5%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/porting/posix/ei_classifier_porting.cpp.o[0m
+[  6%] [32mBuilding C object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/c/common.c.o[0m
+[  6%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/core/api/common.cc.o[0m
+[  7%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/core/api/error_reporter.cc.o[0m
+[  7%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/core/api/flatbuffer_conversions.cc.o[0m
+[  8%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/core/api/op_resolver.cc.o[0m
+[  9%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/core/api/tensor_utils.cc.o[0m
+[  9%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/kernels/custom/tree_ensemble_classifier.cc.o[0m
+[ 10%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/kernels/internal/portable_tensor_utils.cc.o[0m
+[ 10%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/kernels/internal/quantization_util.cc.o[0m
+[ 11%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/kernels/internal/reference_portable_tensor_utils.cc.o[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/kernels/internal/tensor_utils.cc.o[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/kernels/kernel_util_lite.cc.o[0m
+[ 13%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/micro/all_ops_resolver.cc.o[0m
+[ 13%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/micro/fake_micro_context.cc.o[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/micro/flatbuffer_conversions_bridge.cc.o[0m
+[ 15%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/micro/flatbuffer_utils.cc.o[0m
+[ 15%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/activations.cc.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/activations_common.cc.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/add.cc.o[0m
+[ 17%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/add_common.cc.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/add_n.cc.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/arg_min_max.cc.o[0m
+[ 19%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/assign_variable.cc.o[0m
+[ 19%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/batch_matmul.cc.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/batch_to_space_nd.cc.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/broadcast_args.cc.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/broadcast_to.cc.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/call_once.cc.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/cast.cc.o[0m
+[ 23%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/ceil.cc.o[0m
+[ 24%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/circular_buffer.cc.o[0m
+[ 24%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/circular_buffer_common.cc.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/comparisons.cc.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/complex_abs.cc.o[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/concatenation.cc.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/conv.cc.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/conv_common.cc.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/cumsum.cc.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/depth_to_space.cc.o[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/depthwise_conv.cc.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/depthwise_conv_common.cc.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/dequantize.cc.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/dequantize_common.cc.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/detection_postprocess.cc.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/div.cc.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/elementwise.cc.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/elu.cc.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/ethosu.cc.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/exp.cc.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/expand_dims.cc.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/fill.cc.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/floor.cc.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/floor_div.cc.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/floor_mod.cc.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/fully_connected.cc.o[0m
+[ 39%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/fully_connected_common.cc.o[0m
+[ 39%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/gather.cc.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/gather_nd.cc.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/hard_swish.cc.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/hard_swish_common.cc.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/if.cc.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/kernel_runner.cc.o[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/kernel_util_micro.cc.o[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/l2_pool_2d.cc.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/l2norm.cc.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/leaky_relu.cc.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/leaky_relu_common.cc.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/log_softmax.cc.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/logical.cc.o[0m
+[ 47%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/logical_common.cc.o[0m
+[ 48%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/logistic.cc.o[0m
+[ 49%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/lstm_eval.cc.o[0m
+[ 49%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/logistic_common.cc.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/maximum_minimum.cc.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/micro_tensor_utils.cc.o[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/mirror_pad.cc.o[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/mli_interface.cc.o[0m
+[ 52%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/mli_slicers.cc.o[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/mul.cc.o[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/mul_common.cc.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/neg.cc.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/pack.cc.o[0m
+[ 55%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/pad.cc.o[0m
+[ 56%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/pooling.cc.o[0m
+[ 56%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/pooling_common.cc.o[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/prelu.cc.o[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/prelu_common.cc.o[0m
+[ 58%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/quantize_common.cc.o[0m
+[ 58%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/read_variable.cc.o[0m
+[ 59%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/quantize.cc.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/real.cc.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/reduce.cc.o[0m
+[ 61%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/reduce_common.cc.o[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/reshape.cc.o[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/resize_bilinear.cc.o[0m
+[ 63%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/resize_nearest_neighbor.cc.o[0m
+[ 64%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/scatter_nd.cc.o[0m
+[ 65%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/round.cc.o[0m
+[ 65%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/rfft2d.cc.o[0m
+[ 65%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/scratch_buf_mgr.cc.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/scratch_buffers.cc.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/select.cc.o[0m
+[ 67%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/shape.cc.o[0m
+[ 68%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/slice.cc.o[0m
+[ 68%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/softmax.cc.o[0m
+[ 69%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/softmax_common.cc.o[0m
+[ 69%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/space_to_batch_nd.cc.o[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/space_to_depth.cc.o[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/split.cc.o[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/split_v.cc.o[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/squared_difference.cc.o[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/squeeze.cc.o[0m
+[ 73%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/strided_slice.cc.o[0m
+[ 74%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/sub.cc.o[0m
+[ 74%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/sub_common.cc.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/svdf.cc.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/svdf_common.cc.o[0m
+[ 76%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/tanh.cc.o[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/tile.cc.o[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/transpose_conv.cc.o[0m
+[ 78%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/transpose.cc.o[0m
+[ 79%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/tree_ensemble_classifier.cc.o[0m
+[ 79%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/topk_v2.cc.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/unidirectional_sequence_lstm.cc.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/unpack.cc.o[0m
+[ 81%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/var_handle.cc.o[0m
+[ 81%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/while.cc.o[0m
+[ 82%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/zeros_like.cc.o[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/micro/memory_helpers.cc.o[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/micro/memory_planner/greedy_memory_planner.cc.o[0m
+[ 84%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/micro/memory_planner/linear_memory_planner.cc.o[0m
+[ 84%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/micro/memory_planner/non_persistent_buffer_planner_shim.cc.o[0m
+[ 85%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/micro/micro_allocation_info.cc.o[0m
+[01m[K/home/dev/respeaker_deep_audio/src/ei_whistle_cpp/edge-impulse-sdk/tensorflow/lite/micro/memory_helpers.cc:[m[K In function ‘[01m[KTfLiteStatus tflite::BytesRequiredForTensor(const tflite::Tensor&, size_t*, size_t*)[m[K’:
+[01m[K/home/dev/respeaker_deep_audio/src/ei_whistle_cpp/edge-impulse-sdk/tensorflow/lite/micro/memory_helpers.cc:107:61:[m[K [01;35m[Kwarning: [m[K‘[01m[Kflatbuffers::uoffset_t flatbuffers::Vector<T>::Length() const [with T = int; flatbuffers::uoffset_t = unsigned int][m[K’ is deprecated: use size() instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  107 |     for (size_t n = 0; n < [01;35m[Kflatbuffer_tensor.shape()->Length()[m[K; ++n) {
+      |                            [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/home/dev/respeaker_deep_audio/src/ei_whistle_cpp/edge-impulse-sdk/third_party/flatbuffers/include/flatbuffers/fb_array.h:22[m[K,
+                 from [01m[K/home/dev/respeaker_deep_audio/src/ei_whistle_cpp/edge-impulse-sdk/third_party/flatbuffers/include/flatbuffers/flatbuffers.h:22[m[K,
+                 from [01m[K/home/dev/respeaker_deep_audio/src/ei_whistle_cpp/edge-impulse-sdk/tensorflow/lite/schema/schema_generated.h:4[m[K,
+                 from [01m[K/home/dev/respeaker_deep_audio/src/ei_whistle_cpp/edge-impulse-sdk/tensorflow/lite/micro/memory_helpers.h:22[m[K,
+                 from [01m[K/home/dev/respeaker_deep_audio/src/ei_whistle_cpp/edge-impulse-sdk/tensorflow/lite/micro/memory_helpers.cc:16[m[K:
+[01m[K/home/dev/respeaker_deep_audio/src/ei_whistle_cpp/edge-impulse-sdk/third_party/flatbuffers/include/flatbuffers/fb_vector.h:163:13:[m[K [01;36m[Knote: [m[Kdeclared here
+  163 |   uoffset_t [01;36m[KLength[m[K() const { return size(); }
+      |             [01;36m[K^~~~~~[m[K
+[ 86%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/micro/micro_allocator.cc.o[0m
+[ 86%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/micro/micro_context.cc.o[0m
+[ 87%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/micro/micro_error_reporter.cc.o[0m
+[ 87%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/micro/micro_graph.cc.o[0m
+[ 88%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/micro/micro_interpreter.cc.o[0m
+[ 89%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/micro/micro_log.cc.o[0m
+[ 89%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/micro/micro_profiler.cc.o[0m
+[ 90%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/micro/micro_resource_variable.cc.o[0m
+[ 90%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/micro/micro_string.cc.o[0m
+[ 91%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/micro/micro_time.cc.o[0m
+[ 92%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/micro/micro_utils.cc.o[0m
+[ 93%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/micro/non_persistent_arena_buffer_allocator.cc.o[0m
+[ 93%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/micro/mock_micro_graph.cc.o[0m
+[ 93%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/micro/op_resolver_bridge.cc.o[0m
+[ 94%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/micro/recording_micro_allocator.cc.o[0m
+[ 94%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/micro/recording_single_arena_buffer_allocator.cc.o[0m
+[ 95%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/micro/persistent_arena_buffer_allocator.cc.o[0m
+[ 95%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/micro/single_arena_buffer_allocator.cc.o[0m
+[ 96%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/micro/schema_utils.cc.o[0m
+[ 97%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/micro/test_helper_custom_ops.cc.o[0m
+[ 97%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/micro/test_helpers.cc.o[0m
+[ 98%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/edge-impulse-sdk/tensorflow/lite/micro/system_setup.cc.o[0m
+[ 99%] [32mBuilding CXX object CMakeFiles/whistle_node.dir/tflite-model/tflite_learn_812412_4.cpp.o[0m
+[100%] [32m[1mLinking CXX executable whistle_node[0m
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[100%] Built target whistle_node
+-- Install configuration: ""
+-- Installing: /home/dev/respeaker_deep_audio/install/ei_whistle_cpp/lib/ei_whistle_cpp/whistle_node
+-- Set runtime path of "/home/dev/respeaker_deep_audio/install/ei_whistle_cpp/lib/ei_whistle_cpp/whistle_node" to ""
+-- Up-to-date: /home/dev/respeaker_deep_audio/install/ei_whistle_cpp/share/ament_index/resource_index/package_run_dependencies/ei_whistle_cpp
+-- Up-to-date: /home/dev/respeaker_deep_audio/install/ei_whistle_cpp/share/ament_index/resource_index/parent_prefix_path/ei_whistle_cpp
+-- Up-to-date: /home/dev/respeaker_deep_audio/install/ei_whistle_cpp/share/ei_whistle_cpp/environment/ament_prefix_path.sh
+-- Installing: /home/dev/respeaker_deep_audio/install/ei_whistle_cpp/share/ei_whistle_cpp/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/dev/respeaker_deep_audio/install/ei_whistle_cpp/share/ei_whistle_cpp/environment/path.sh
+-- Installing: /home/dev/respeaker_deep_audio/install/ei_whistle_cpp/share/ei_whistle_cpp/environment/path.dsv
+-- Up-to-date: /home/dev/respeaker_deep_audio/install/ei_whistle_cpp/share/ei_whistle_cpp/local_setup.bash
+-- Up-to-date: /home/dev/respeaker_deep_audio/install/ei_whistle_cpp/share/ei_whistle_cpp/local_setup.sh
+-- Up-to-date: /home/dev/respeaker_deep_audio/install/ei_whistle_cpp/share/ei_whistle_cpp/local_setup.zsh
+-- Installing: /home/dev/respeaker_deep_audio/install/ei_whistle_cpp/share/ei_whistle_cpp/local_setup.dsv
+-- Installing: /home/dev/respeaker_deep_audio/install/ei_whistle_cpp/share/ei_whistle_cpp/package.dsv
+-- Up-to-date: /home/dev/respeaker_deep_audio/install/ei_whistle_cpp/share/ament_index/resource_index/packages/ei_whistle_cpp
+-- Up-to-date: /home/dev/respeaker_deep_audio/install/ei_whistle_cpp/share/ei_whistle_cpp/cmake/ei_whistle_cppConfig.cmake
+-- Up-to-date: /home/dev/respeaker_deep_audio/install/ei_whistle_cpp/share/ei_whistle_cpp/cmake/ei_whistle_cppConfig-version.cmake
+-- Up-to-date: /home/dev/respeaker_deep_audio/install/ei_whistle_cpp/share/ei_whistle_cpp/package.xml

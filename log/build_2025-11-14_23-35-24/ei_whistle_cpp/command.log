@@ -1,0 +1,4 @@
+Invoking command in '/home/dev/respeaker_deep_audio/build/ei_whistle_cpp': /usr/bin/cmake --build /home/dev/respeaker_deep_audio/build/ei_whistle_cpp -- -j4 -l4
+Invoked command in '/home/dev/respeaker_deep_audio/build/ei_whistle_cpp' returned '0': /usr/bin/cmake --build /home/dev/respeaker_deep_audio/build/ei_whistle_cpp -- -j4 -l4
+Invoking command in '/home/dev/respeaker_deep_audio/build/ei_whistle_cpp': /usr/bin/cmake --install /home/dev/respeaker_deep_audio/build/ei_whistle_cpp
+Invoked command in '/home/dev/respeaker_deep_audio/build/ei_whistle_cpp' returned '0': /usr/bin/cmake --install /home/dev/respeaker_deep_audio/build/ei_whistle_cpp

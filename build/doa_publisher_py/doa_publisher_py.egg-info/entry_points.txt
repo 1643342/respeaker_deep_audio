@@ -1,2 +1,0 @@
-[console_scripts]
-doa_node = doa_publisher_py.doa_node:main

@@ -1,33 +1,80 @@
 cmake_minimum_required(VERSION 3.10)
 project(ei_whistle_cpp)
 
-set(CMAKE_CXX_STANDARD 11)
-set(CMAKE_POSITION_INDEPENDENT_CODE ON)
-
+# ROS 2
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(std_msgs REQUIRED)
 
-# EI SDK location (unzipped C++ library)
-set(EI_SDK_DIR ${CMAKE_CURRENT_SOURCE_DIR}/ei-sdk)
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-include_directories(
-  ${EI_SDK_DIR}
-  ${EI_SDK_DIR}/edge-impulse-sdk
-  ${EI_SDK_DIR}/edge-impulse-sdk/dsp
-  ${EI_SDK_DIR}/edge-impulse-sdk/classifier
-  ${EI_SDK_DIR}/model-parameters
-  ${EI_SDK_DIR}/tflite-model
-  ${CMAKE_CURRENT_SOURCE_DIR}/include
+# Edge Impulse: build for Linux/posix, not CMSIS
+add_compile_definitions(
+  EI_PORTING_POSIX=1
+  EIDSP_USE_CMSIS_DSP=0
+  EI_CLASSIFIER_TFLITE_ENABLE_CMSIS_NN=0
 )
 
-find_library(ASOUND asound)
+# ALSA
+find_library(ALSA_LIB asound REQUIRED)
 
-add_executable(whistle_node src/whistle_node.cpp)
-target_link_libraries(whistle_node ${ASOUND})
+# ---- Include dirs ----
+include_directories(
+  ${CMAKE_CURRENT_SOURCE_DIR}
+  ${CMAKE_CURRENT_SOURCE_DIR}/edge-impulse-sdk
+  ${CMAKE_CURRENT_SOURCE_DIR}/edge-impulse-sdk/classifier
+  ${CMAKE_CURRENT_SOURCE_DIR}/edge-impulse-sdk/dsp
+  ${CMAKE_CURRENT_SOURCE_DIR}/edge-impulse-sdk/third_party
+  ${CMAKE_CURRENT_SOURCE_DIR}/edge-impulse-sdk/tensorflow
+  ${CMAKE_CURRENT_SOURCE_DIR}/model-parameters
+  ${CMAKE_CURRENT_SOURCE_DIR}/tflite-model
+)
+
+# ---- Collect ALL EI / TFLM sources ----
+file(GLOB_RECURSE EI_SDK_SOURCES
+  ${CMAKE_CURRENT_SOURCE_DIR}/edge-impulse-sdk/classifier/*.cpp
+  ${CMAKE_CURRENT_SOURCE_DIR}/edge-impulse-sdk/dsp/*.cpp
+  ${CMAKE_CURRENT_SOURCE_DIR}/edge-impulse-sdk/dsp/*.c
+  ${CMAKE_CURRENT_SOURCE_DIR}/edge-impulse-sdk/porting/posix/*.cpp
+
+ 
+  ${CMAKE_CURRENT_SOURCE_DIR}/edge-impulse-sdk/tensorflow/lite/c/*.c
+  ${CMAKE_CURRENT_SOURCE_DIR}/edge-impulse-sdk/tensorflow/lite/core/api/*.cc
+  ${CMAKE_CURRENT_SOURCE_DIR}/edge-impulse-sdk/tensorflow/lite/micro/*.cc
+  ${CMAKE_CURRENT_SOURCE_DIR}/edge-impulse-sdk/tensorflow/lite/micro/kernels/*.cc
+
+
+  ${CMAKE_CURRENT_SOURCE_DIR}/edge-impulse-sdk/tensorflow/lite/kernels/*.cc
+  ${CMAKE_CURRENT_SOURCE_DIR}/edge-impulse-sdk/tensorflow/lite/kernels/internal/*.cc
+  ${CMAKE_CURRENT_SOURCE_DIR}/edge-impulse-sdk/tensorflow/lite/kernels/internal/*/*.cc
+
+  
+  ${CMAKE_CURRENT_SOURCE_DIR}/edge-impulse-sdk/third_party/flatbuffers/*.cc
+  ${CMAKE_CURRENT_SOURCE_DIR}/edge-impulse-sdk/third_party/flatbuffers/src/*.cc
+
+  ${CMAKE_CURRENT_SOURCE_DIR}/edge-impulse-sdk/third_party/kissfft/*.c
+)
+
+
+
+# Model: EON compiled .cpp (or plain model C++ file)
+file(GLOB EI_MODEL_SOURCES
+  ${CMAKE_CURRENT_SOURCE_DIR}/tflite-model/*.cpp
+)
+
+add_executable(whistle_node
+  whistle_node.cpp
+  ${EI_SDK_SOURCES}
+  ${EI_MODEL_SOURCES}
+)
+
+# Link ROS 2 deps and ALSA
 ament_target_dependencies(whistle_node rclcpp std_msgs)
+target_link_libraries(whistle_node ${ALSA_LIB})
 
-install(TARGETS whistle_node DESTINATION lib/${PROJECT_NAME})
+# Install
+install(TARGETS whistle_node
+  DESTINATION lib/${PROJECT_NAME})
 
 ament_package()
-

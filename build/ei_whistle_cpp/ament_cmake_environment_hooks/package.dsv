@@ -1,0 +1,4 @@
+source;share/ei_whistle_cpp/local_setup.bash
+source;share/ei_whistle_cpp/local_setup.dsv
+source;share/ei_whistle_cpp/local_setup.sh
+source;share/ei_whistle_cpp/local_setup.zsh

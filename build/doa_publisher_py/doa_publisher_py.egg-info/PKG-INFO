@@ -1,8 +1,0 @@
-Metadata-Version: 2.1
-Name: doa-publisher-py
-Version: 0.0.1
-Summary: Publish DOA from ReSpeaker via USB
-Maintainer: you
-Maintainer-email: Gonzab18@my.erau.edu
-License: Apache-2.0
-Requires-Dist: setuptools
