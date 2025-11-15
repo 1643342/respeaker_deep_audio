@@ -81,10 +81,10 @@
 #define EI_CLASSIFIER_DATATYPE_UINT8             3
 #define EI_CLASSIFIER_DATATYPE_INT8              9
 
-#define EI_CLASSIFIER_PROJECT_ID                 812412
+#define EI_CLASSIFIER_PROJECT_ID                 828227
 #define EI_CLASSIFIER_PROJECT_OWNER              "Bryan_Gonzalez"
-#define EI_CLASSIFIER_PROJECT_NAME               "Whistle"
-#define EI_CLASSIFIER_PROJECT_DEPLOY_VERSION     9
+#define EI_CLASSIFIER_PROJECT_NAME               "Whistle v1"
+#define EI_CLASSIFIER_PROJECT_DEPLOY_VERSION     11
 #define EI_CLASSIFIER_NN_INPUT_FRAME_SIZE        9137
 #define EI_CLASSIFIER_RAW_SAMPLE_COUNT           48000
 #define EI_CLASSIFIER_RAW_SAMPLES_PER_FRAME      1

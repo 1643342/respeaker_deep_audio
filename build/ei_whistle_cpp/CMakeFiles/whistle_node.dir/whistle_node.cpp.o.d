@@ -826,7 +826,7 @@ CMakeFiles/whistle_node.dir/whistle_node.cpp.o: \
  /home/dev/respeaker_deep_audio/src/ei_whistle_cpp/edge-impulse-sdk/classifier/ei_quantize.h \
  /home/dev/respeaker_deep_audio/src/ei_whistle_cpp/model-parameters/model_variables.h \
  /home/dev/respeaker_deep_audio/src/ei_whistle_cpp/model-parameters/model_metadata.h \
- /home/dev/respeaker_deep_audio/src/ei_whistle_cpp/tflite-model/tflite_learn_812412_4.h \
+ /home/dev/respeaker_deep_audio/src/ei_whistle_cpp/tflite-model/tflite_learn_828227_4.h \
  /home/dev/respeaker_deep_audio/src/ei_whistle_cpp/edge-impulse-sdk/third_party/incbin/incbin.h \
  /home/dev/respeaker_deep_audio/src/ei_whistle_cpp/edge-impulse-sdk/classifier/inferencing_engines/engines.h \
  /home/dev/respeaker_deep_audio/src/ei_whistle_cpp/edge-impulse-sdk/classifier/postprocessing/ei_postprocessing_common.h \
